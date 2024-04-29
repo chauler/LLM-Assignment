@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Website</title>
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: #f5f5f5;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        /* Main section */
+        .main {
+            background: linear-gradient(to bottom, #f5f5f5, #e0e0e0);
+            padding: 2rem;
+            text-align: center;
+        }
+
+        /* Book lists */
+        .book-lists {
+            display: flex;
+            justify-content: space-between;
+            padding: 2rem;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        /* Contact form */
+        .contact-form {
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        /* Input fields */
+        .input-field {
+            margin-bottom: 1rem;
+        }
+
+        /* Submit button */
+        .submit-btn {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+        }
+
+        /* Increase contrast for links */
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #000;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1>Welcome to the Modern Business Library</h1>
+    </div>
+
+    <div class="main">
+        <h2>Welcome to Our Library</h2>
+        <p>The Modern Business Library offers a wide range of books on business, entrepreneurship, and management. Our collection includes both classic and contemporary works to help you stay ahead in the business world.</p>
+    </div>
+
+    <div class="book-lists">
+        <div class="column">
+            <h3>Recommended Reads</h3>
+            <ul>
+                <li>The Lean Startup</li>
+                <li>Good to Great</li>
+                <li>Thinking, Fast and Slow</li>
+                <li>Zero to One</li>
+            </ul>
+        </div>
+
+        <div class="column">
+            <h3>New Arrivals</h3>
+            <ul>
+                <li>Measure What Matters</li>
+                <li>Start with Why</li>
+                <li>Originals</li>
+                <li>The Innovator's Dilemma</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Contact us at: <a href="mailto:info@modernlibrary.com">info@modernlibrary.com</a></p>
+        <form action="#">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="4" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
