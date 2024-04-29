@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Business Library</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    nav {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .main-header {
+      background: linear-gradient(to right, #333, #f4f4f4);
+      color: #fff;
+      padding: 2rem;
+    }
+
+    .book-list {
+      display: flex;
+      justify-content: space-between;
+      padding: 2rem;
+    }
+
+    .book-list div {
+      width: 45%;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .contact-form input[type="email"],
+    .contact-form input[type="text"] {
+      width: 100%;
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .contact-form button {
+      padding: 1rem;
+      background-color: #333;
+      color: #fff;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#books">Books</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <header class="main-header">
+    <h1>Welcome to Modern Business Library</h1>
+    <p>Your source for the latest business books and resources.</p>
+  </header>
+
+  <section id="books" class="book-list">
+    <div>
+      <h2>Column 1</h2>
+      <ul>
+        <li>Book 1</li>
+        <li>Book 2</li>
+        <li>Book 3</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Column 2</h2>
+      <ul>
+        <li>Book 4</li>
+        <li>Book 5</li>
+        <li>Book 6</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <h2>Contact Us</h2>
+    <p>Email: info@modernbusinesslibrary.com</p>
+    <p>Phone: 123-456-7890</p>
+
+    <form class="contact-form">
+      <input type="email" placeholder="Your Email">
+      <input type="text" placeholder="Your Feedback">
+      <button type="submit">Submit</button>
+    </form>
+  </footer>
+</body>
+</html>
