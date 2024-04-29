@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .navbar {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .main-section {
+            padding: 20px;
+            background-color: #fff;
+            margin: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        }
+        .book-list {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .book-list .column {
+            width: 45%;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-form {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        }
+        .contact-form input[type="email"], .contact-form input[type="text"] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        .contact-form button {
+            background-color: #008CBA; /* Changed to a more contrasting color */
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        .contact-form button:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h2>Library Name</h2>
+    </div>
+
+    <div class="main-section">
+        <h2>Welcome to Our Library</h2>
+        <p>A modern library designed for your convenience. Explore our vast collection of books and find the perfect read for you.</p>
+    </div>
+
+    <div class="book-list">
+        <div class="column">
+            <h3>Book Category 1</h3>
+            <ul>
+                <li>Book Title 1</li>
+                <li>Book Title 2</li>
+                <li>Book Title 3</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>Book Category 2</h3>
+            <ul>
+                <li>Book Title 4</li>
+                <li>Book Title 5</li>
+                <li>Book Title 6</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="/submit_form" method="post">
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <label for="feedback">Your Feedback:</label>
+            <input type="text" id="feedback" name="feedback" placeholder="Your Feedback" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>Contact Info: info@library.com | Phone: 123-456-7890</p>
+    </div>
+</body>
+</html>
