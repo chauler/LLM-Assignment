@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Library Website</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 20px;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .summary {
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+  
+  .book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .book {
+    width: 48%;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+</style>
+</head>
+<body>
+  <div class="navbar">
+    <h1>Library Website</h1>
+  </div>
+
+  <div class="container">
+    <header>
+      <h2>Welcome to Our Library</h2>
+    </header>
+
+    <div class="summary">
+      <p>Our library offers a wide range of books covering various genres and topics. Whether you're looking for fiction, non-fiction, academic, or children's books, we have something for everyone. Explore our collection and embark on a journey of knowledge and imagination.</p>
+    </div>
+
+    <div class="book-list">
+      <div class="book">
+        <h3>Fiction</h3>
+        <ul>
+          <li>Book 1</li>
+          <li>Book 2</li>
+          <li>Book 3</li>
+          <li>Book 4</li>
+        </ul>
+      </div>
+      <div class="book">
+        <h3>Non-Fiction</h3>
+        <ul>
+          <li>Book 5</li>
+          <li>Book 6</li>
+          <li>Book 7</li>
+          <li>Book 8</li>
+        </ul>
+      </div>
+    </div>
+
+    <footer>
+      <h2>Contact Us</h2>
+      <form>
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" placeholder="Your Email">
+        <label for="feedback">Your Feedback:</label>
+        <textarea id="feedback" placeholder="Your Feedback"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </footer>
+  </div>
+</body>
+</html>
